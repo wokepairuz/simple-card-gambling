@@ -4,7 +4,7 @@ let dealerHand = [];
 let playerHasLost = false;
 let playerScore = 0;
 let dealerScore = 0;
-let currency = 100;
+let currency = 1000;
 let currentBet = 0;
 
 const suits = ['♥', '♦', '♣', '♠'];
