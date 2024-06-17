@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #006400;
+    color: white;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+.box {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    width: 50px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.suit {
+    font-size: 1.5em;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00008B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000CD;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#restart-button {
+    display: none;
+}
+
+#currency {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+#bet-box {
+    margin: 20px;
+}
